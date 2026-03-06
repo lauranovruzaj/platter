@@ -1,0 +1,13 @@
+{
+  "name": "platter",
+  "version": "1.0.0",
+  "description": "Best Sellers product section",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev": "npm run build && npx serve ."
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
