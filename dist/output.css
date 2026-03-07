@@ -746,6 +746,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 
+.bg-\[\#5C7962\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(92 121 98 / var(--tw-bg-opacity, 1));
+}
+
 .bg-blackSoft{
   --tw-bg-opacity: 1;
   background-color: rgb(35 31 32 / var(--tw-bg-opacity, 1));
@@ -764,11 +769,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#5C7962\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(92 121 98 / var(--tw-bg-opacity, 1));
 }
 
 .object-contain{
@@ -794,11 +794,6 @@ video {
 .py-9{
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .pb-2{
@@ -1055,10 +1050,6 @@ video {
 @media (min-width: 768px){
   .md\:mb-9{
     margin-bottom: 2.25rem;
-  }
-
-  .md\:block{
-    display: block;
   }
 
   .md\:flex{
